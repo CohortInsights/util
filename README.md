@@ -1,2 +1,2 @@
 # util
-utilities code repo for CohortInsights
+Code repository for the utilities package
