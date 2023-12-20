@@ -1,2 +1,2 @@
 # util
-Code repository for the utilities package
+Core utility functions and classes used within CohortInsights framework

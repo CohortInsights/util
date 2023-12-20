@@ -1,9 +1,13 @@
-from util.mongo import get_connection_info, connect
+from util.io import get_config
+from util.mongo import connect
 import sys
 
 
 def main_with_args(remote_mongo: str):
-    config = get_connection_info(remote_mongo)
+    global_config = get_config()
+    config = global_config.get(remote_mongo)
+    if not config:
+        raise IOError("No key exists in configuration for '" + remote_mongo + "'")
     with connect(**config) as connection:
         print(connection)
 
