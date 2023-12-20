@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "util"
-version = "0.1.0"
-description = "Python functions and classes for core utilities"
+version = "0.1.1"
+description = "Python functions and classes for core utilities within CohortInsights framework"
 authors = ["Roger Chylla <rogerchylla1205@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.11.6"
+python = "^3.11.6"
 pymongo = "^4.6.1"
 pyyaml = "^6.0.1"
 numpy = "^1.25"
