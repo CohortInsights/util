@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "util"
-version = "0.1.1"
+version = "0.1.5"
 description = "Python functions and classes for core utilities within CohortInsights framework"
 authors = ["Roger Chylla <rogerchylla1205@gmail.com>"]
 readme = "README.md"
